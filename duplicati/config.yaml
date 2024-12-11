@@ -12,6 +12,10 @@ arch:
   - i386
 ingress: true
 ingress_port: 8200
+ports:
+  8200/tcp: 8200
+ports_description:
+  8200/tcp: "webui"
 panel_icon: mdi:backup-restore
 startup: services
 init: false
